@@ -1,0 +1,9 @@
+F:\project\jumei\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe.config
+F:\project\jumei\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe
+F:\project\jumei\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.pdb
+F:\project\jumei\WindowsFormsApplication1\bin\Release\MySql.Data.dll
+F:\project\jumei\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form1.resources
+F:\project\jumei\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+F:\project\jumei\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.csproj.GenerateResource.Cache
+F:\project\jumei\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.exe
+F:\project\jumei\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.pdb

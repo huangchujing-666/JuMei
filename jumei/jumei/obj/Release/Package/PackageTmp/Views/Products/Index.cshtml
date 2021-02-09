@@ -1,0 +1,126 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<script src="~/Scripts/jquery-1.7.1.js"></script>
+
+<h4 id="skuInfo">SKU信息</h4>
+<form id="proEdit" name="proEdit" action="/GlobalDeal/Edit" method="post" class="form-horizontal form-alignLeft">
+    <input type="hidden" value="74716" name="deal[product_id]">
+
+
+<div class="skuContent">
+        <input type="button" class="font14 btn" id="addSKU" value="添加SKU">
+</div>
+
+<h4 id="DealInfo" class="mt20">Deal详情</h4>
+        <label class="control-label">售卖时间 <span class="red">*</span></label>
+        <div class="controls">
+            <input name="deal[start_time]" value="" type="text" class="start" id="" >  至
+            <input name="deal[end_time]" value="" type="text" class="end" id="" >
+        </div>
+
+       <label class="control-label">发货仓库 <span class="red">*</span></label>
+        <div class="controls">
+            <select name="deal[shipping_system_id]" id="shipping_system_id">
+                <option value="－1" >请选择</option>
+                                    <option value="2947" area_code="20" >第三方国际</option>
+                                    <option value="3719" area_code="29" >聚美保税区</option>
+                            </select>
+            发货地区： <span id="area_id"></span>
+        </div>
+
+       <label class="control-label">每人限购 <span class="red"></span></label>
+        <div class="controls">
+            <input name="deal[user_purchase_limit]" value="" type="text" class="span3"  >
+            <span class="help-inline">0为不限购</span>
+        </div>
+ 
+        <label class="control-label">佣金比率<span class="red">* </span></label>
+        <div class="controls">
+            <input  value="10" name="deal[rebate_ratio]" type="text" class="span3" id="commissionProportion" readonly> %
+            <span class="help-inline">为产品所属品牌的佣金比例，不可修改</span>
+        </div>
+
+        <label for="" class="control-label">长标题 <span class="red">*</span></label>
+        <div class="controls">
+            <textarea name="deal[product_long_name]" id="" rows="4" maxlength="130" class="span8">LOVE MOSCHINO 女士黑色可爱单肩包</textarea>
+            <span class="help-inline">130字以内</span>
+            <p class="help-block">用于详情页显示，商品名+功效特点描述，不能出现价格及促销信息</p>
+        </div>
+
+        <label for="" class="control-label">中标题 <span class="red">*</span></label>
+        <div class="controls">
+            <input type="text" maxlength="35" name="deal[product_medium_name]" value="LOVE MOSCHINO 女士黑色可爱单肩包" class="span8"/>
+            <span class="help-inline">35字以内</span>
+            <p class="help-block">用于首页、列表页显示，填写商品名+功效的一句话描述，不能出现价格及促销信息</p>
+        </div>
+
+        <label for="" class="control-label">短标题 <span class="red">*</span></label>
+        <div class="controls">
+            <input type="text" maxlength="15" name="deal[product_short_name]" value="LOVE MOSCHINO 女士单肩包" class="span8" />
+            <span class="help-inline">15字以内</span>
+            <p class="help-block">用于购物车、移动客户端等，填写产品名，如果字数超过，需酌情删减部分信息</p>
+        </div>
+
+         <label for="" class="control-label">生产地区 <span class="red">*</span></label>
+        <div class="controls">
+            <textarea  name="deal[address_of_produce]"   rows="4" maxlength="150" class="span8">中国</textarea>
+            <span class="help-inline">150字以内</span>
+        </div>
+
+        <label for="" class="control-label">保质期限 <span class="red">*</span></label>
+        <div class="controls">
+            <textarea  name="deal[before_date]"   rows="4" maxlength="150" class="span8">按个人使用情况而定</textarea>
+            <span class="help-inline">150字以内</span>
+        </div>
+
+       <label for="" class="control-label">适用人群 <span class="red">*</span></label>
+        <div class="controls">
+            <textarea  name="deal[suit_people]"   rows="4" maxlength="150" class="span8">女</textarea>
+            <span class="help-inline">150字以内</span>
+            <p class="help-block">填写适合使用的人群特征。如：适用于所有缺水及面部有细纹、无活力的肌肤</p>
+        </div>
+
+       <label for="" class="control-label">特殊说明 <span class="red">*</span></label>
+        <div class="controls">
+            <textarea  name="deal[special_explain]" rows="4" maxlength="150" class="span8">本产品为全新产品，带有防伪吊牌，如若拆卸吊牌谢绝退换</textarea>
+            <span class="help-inline">150字以内</span>
+            <p class="help-block">描述商品包装特征，如：本产品为全新专柜正装，有外盒无塑封，新老两款包装随机发货。</p>
+        </div>
+
+        <label for="" class="control-label">自定义搜索词</label>
+        <div class="controls">
+            <input type="text" maxlength="100" name="deal[search_meta_text_custom]" value="LOVE MOSCHINO 单肩包"  class="span8"/>
+            <p class="help-block">用于搜索， 填写产品别名（如：黄油），最多可填5个关键词，每个关键词上限10个汉字字符，以逗号分隔</p>
+        </div>
+
+        <h5 id="details">本单详情 <span class="red">*</span></h5>
+
+       <textarea name="deal[description_properties]" id="description" class="kindeditor" style="width: 700px; height: 500px;"><img src="http://p0.jmstatic.com/global/image/201602/20/1455955531.2434.jpg" alt="" /></textarea>
+       
+       <h5 id="metdod">使用方法 <span class="red">*</span></h5>
+
+      <textarea name="deal[description_usage]" id="description_usage" class="kindeditor" style="width: 700px; height: 500px;"><img src="http://p0.jmstatic.com/global/image/201602/20/1455955542.5518.jpg" alt="" /></textarea>
+
+      <h5 id="photo">商品实拍 <span class="red">* </span><a id="copy_photo_images">一键复制实拍</a><span class="red"> 此功能可将1000*1000白底图压缩成790*790尺寸的图传到商品实拍</h5>
+      <textarea name="deal[description_images]" id="description_images" class="kindeditor" style="width: 700px; height: 500px;"><img src="http://p0.jmstatic.com/global/image/201602/20/1455955604.4956.jpg" alt="" />
+          <img src="http://p0.jmstatic.com/global/image/201602/20/1455955618.5294.jpg" alt="" />
+          <img src="http://p0.jmstatic.com/global/image/201602/20/1455955630.5672.jpg" alt="" />
+          <img src="http://p0.jmstatic.com/global/image/201602/20/1455955642.9256.jpg" alt="" />
+          <img src="http://p0.jmstatic.com/global/image/201602/20/1455955657.3515.jpg" alt="" />
+          <img src="http://p0.jmstatic.com/global/image/201602/20/1455955671.8283.jpg" alt="" />
+          <img src="http://p0.jmstatic.com/global/image/201602/20/1455955686.1808.jpg" alt="" />
+          <img src="http://p0.jmstatic.com/global/image/201602/20/1455955705.8347.jpg" alt="" />
+      </textarea>
+
+
+        <div class="pull-right btn-toolbar">
+        <input type="submit" name="save" class="btn" value="保存草稿" id="saveButton"/>
+        <input type="button" name="Auditing" class="btn btn-success" value="保存并送审" id="checkButton"/>
+        <a name="preview" class="btn" href="javascript:;" onclick="preview();">预览</a>
+</div>
+</form>
+
+<form  method="post" action="/GlobalProduct/ProductImageUpload" id="fileForm" name="fileForm" enctype="multipart/form-data">
+    <input type="hidden" name="type" value="normal"/>
+</form>

@@ -1,0 +1,203 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div id="cover"></div>
+<script src="~/Scripts/jquery-1.7.1.js"></script>
+<script src="~/Scripts/coverPageDiv.js"></script>
+<link href="~/Css/divShow.css" rel="stylesheet" />
+<script>
+    $().ready(function () {
+
+        //下载图片
+        $("#btn_down_image").click(function () {
+            var sku_id = $("#sku_id").val();//货号
+            if (sku_id == "") {
+                return false;
+            }
+            coverPageDivShow();
+            $.post("/read_image/down_image", { sku_id: sku_id }, function (data) { console.log(data); alert(data); coverPageDivHidden();})
+        })
+
+        //上传图片
+        $("#btn_sub").click(function () {
+            var sku_id = $("#sku_id").val();//货号
+            if (sku_id == "") {
+                return false;
+            }
+            coverPageDivShow();
+            $.post("/index/upload_img_one", { sku_id: sku_id }, function (data) { console.log(data); alert(data); coverPageDivHidden(); })
+        })
+
+
+        //SWVY4535570LIPF
+        //HWAMY1L5265ANRF
+        //获取sku信息
+        $("#btn_confirm").click(function () {
+            var sku_id = $("#sku_id").val();//货号
+            if (sku_id == "") {
+                return false;
+            }
+
+            $.post("/index/get_sku_msg", { sku_id: sku_id }, function (data) {
+                if (data=="") {
+                    alert("暂无此SKU信息");
+                    history.go(0);
+                }
+                if (data == "1") {
+                    alert("SKU图片未上传");
+                    history.go(0);
+                }
+
+                $("#leavel_1").val(data.Category_1);//类目1
+                $("select[name='product[category_v3_2]']").val(data.Category_2);//类目2
+                $("select[name='product[category_v3_3]']").val(data.Category_3);//类目3
+                $("select[name='product[category_v3_4]']").val(data.Category_4);//类目4
+
+                $("select[name='product[brand_id]']").val(data.Brand);//品牌
+                $("input[name='product[name]']").val(data.Sku_name);//产品名
+                $("input[name='product[foreign_language_name]']").val(data.Sku_foreign_name);//外文名
+                $("textarea[name='product[images]']").val(data.Sku_image_1);//图片1
+                $("input[name='spu_1[upc_code]']").val(data.Sku_id);//sku
+                $("select[name='spu_1[property]']").val(data.Sku_property);//规格
+                $("input[name='spu_1[size]']").val(data.Sku_size);//尺码
+                $("input[name='spu_1[attributes]']").val(data.Sku_color);//颜色
+                $("input[name='spu_1[abroad_price]']").val(data.Sku_price);//价格
+                $("select[name='spu_1[area_code]']").val(data.Sku_area_code);//货币
+                $("textarea[name='spu_1[images]']").html(data.Sku_image_2);//图片2
+                $("textarea[name='spu_1[other_images]']").html(data.Sku_image_3);//图片3
+                $("input[name='auditing']").val(data.Sku_auditing);//送审
+                $("input[name='product[trial_reason]']").val(data.Sku_trial_reason);//描述
+            }, "json");
+
+        })
+    });
+
+</script>
+<script src="~/Scripts/uploadImg.js"></script>
+ 
+
+<label>SKU货号：</label><input id="sku_id" />
+<br />
+<button id="btn_down_image">下载图片</button>
+<button id="btn_sub">上传图片</button>
+<button id="btn_confirm">获取sku信息</button>
+
+
+<form id="proEdit" name="proEdit" method="post" action="http://a.jumeiglobal.com/GlobalProduct/ApplyNew" target="_blank">
+    类目
+    <select id="leavel_1" name="product[category_v3_1]" class="category category1">
+        <option value="-1">请选择</option>
+        <option value="107">化妆品</option>
+        <option value="429">食品保健</option>
+        <option value="477">其他</option>
+        <option value="485">礼品箱包</option>
+        <option value="542">男士</option>
+        <option value="597">运动户外</option>
+        <option value="740">鞋类</option>
+        <option value="782">女装</option>
+        <option value="839">饰品配饰</option>
+        <option value="947">内衣</option>
+        <option value="1047">家居</option>
+        <option value="1368">母婴健康</option>
+    </select>
+    <select name="product[category_v3_2]" class="category category2">
+        <option value="-1">请选择</option>
+        <option value="486">钱包/卡包</option>
+        <option value="498">单肩包/挎包/手包</option>
+        <option value="507">双肩背包</option>
+        <option value="512">功能箱包</option>
+        <option value="517">旅行箱包及配件</option>
+        <option value="526">商务公文包</option>
+        <option value="533">电脑包/摄影包</option>
+    </select>
+    <select name="product[category_v3_3]" class="category category3">
+        <option value="-1">请选择</option>
+        <option value="499">女包</option>
+        <option value="503">男包</option>
+    </select>
+    <select name="product[category_v3_4]" class="category category4">
+        <option value="-1">请选择</option>
+        <option value="500">单肩包/斜挎包</option>
+        <option value="501">手拎包</option>
+        <option value="502">手拿包</option>
+    </select>
+
+    <br />
+    品牌
+            <select name="product[brand_id]" id="friendly_name" class="chzn-done">
+                <option value="509">卡文克莱 (CALVIN KLEIN)，ID：509</option>
+                <option value="3610">芙拉 (FURLA)，ID：3610</option>
+                <option value="4515">凯浦林（KIPLING），ID：4515</option>
+                <option value="5532">古驰GUCCI，ID：5532</option>
+                <option value="6448">芬迪(FENDI)，ID：6448</option>
+                <option value="6563">华伦天奴 (Valentino)，ID：6563</option>
+                <option value="6626">盖尔斯（GUESS），ID：6626</option>
+                <option value="6772">菲拉格慕(Ferragamo )，ID：6772</option>
+                <option value="6808">普拉达(PRADA )，ID：6808</option>
+                <option value="6812">蔻驰COACH，ID：6812</option>
+                <option value="8408">圣罗兰巴黎，ID：8408</option>
+                <option value="8942">巴利(BALLY)，ID：8942</option>
+                <option value="8944">阿玛尼（Armani），ID：8944</option>
+                <option value="8945">宝缇嘉（Bottega Veneta），ID：8945</option>
+                <option value="9048">瑞贝卡·明可弗(Rebecca Minkoff)，ID：9048</option>
+                <option value="9069">DESIGN INVERSO，ID：9069</option>
+                <option value="9490">阿玛尼牛仔（Armani Jeans），ID：9490</option>
+                <option value="10485">Grafea，ID：10485</option>
+                <option value="10642">LOVE MOSCHINO，ID：10642</option>
+            </select>
+
+    <br />
+    产品名<input name="product[name]" value="" type="text" maxlength="100" class="span8">
+    <br />
+    外文名<input name="product[foreign_language_name]" value="" type="text" maxlength="100" class="span8">
+    <br />
+    图片
+    <div class="form-group">
+        <textarea class="hide" name="product[images]"></textarea>
+    </div>
+
+    <input type="hidden" name="spu_1[id]" value="-1">
+    <br />
+    sku
+    <input name="spu_1[upc_code]" type="text" class="span3" value="">
+    <br />
+    规格
+    <select name="spu_1[property]" id="">
+        <option value="-1">请选择</option>
+        <option value="FORMAL">正装</option>
+        <option value="MS">中小样</option>
+        <option value="OTHER">其他</option>
+    </select>
+    <br />
+    尺码
+    <input name="spu_1[size]" value="" type="text" class="span3" placeholder="容量单位：g，ml，片">
+    <br />
+    颜色
+    <input name="spu_1[attributes]" value="" type="text" class="span3" placeholder="如：清爽型，圣诞限量版">
+    <br />
+    价格
+    <input name="spu_1[abroad_price]" value="" type="text" class="overseas_price" placeholder="">
+    <select name="spu_1[area_code]" class="unit inline">
+        <option value="-1">请选择</option>
+        <option value="19">$</option>
+    </select>
+    <br />
+    白底方图
+    <textarea class="hide spu_images" name="spu_1[images]"></textarea>
+    <br />
+    竖图
+    <textarea class="hide spu_vertical_images" name="spu_1[other_images]"></textarea>
+    <br />
+    <input name="auditing" value="送审">
+    <br />
+    描述<input name="product[trial_reason]" value="新" />
+    <br />
+    <input type="submit" value="提交" />
+</form>
+
+
+
+
+

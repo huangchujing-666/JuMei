@@ -1,0 +1,11 @@
+F:\project\jumei\jumei_down_image\bin\Debug\jumei_down_image.exe.config
+F:\project\jumei\jumei_down_image\bin\Debug\jumei_down_image.exe
+F:\project\jumei\jumei_down_image\bin\Debug\jumei_down_image.pdb
+F:\project\jumei\jumei_down_image\obj\Debug\jumei_down_image.exe
+F:\project\jumei\jumei_down_image\obj\Debug\jumei_down_image.pdb
+E:\元让 交接\jumei\jumei_down_image\bin\Debug\jumei_down_image.exe.config
+E:\元让 交接\jumei\jumei_down_image\bin\Debug\jumei_down_image.exe
+E:\元让 交接\jumei\jumei_down_image\bin\Debug\jumei_down_image.pdb
+E:\元让 交接\jumei\jumei_down_image\obj\Debug\jumei_down_image.csprojResolveAssemblyReference.cache
+E:\元让 交接\jumei\jumei_down_image\obj\Debug\jumei_down_image.exe
+E:\元让 交接\jumei\jumei_down_image\obj\Debug\jumei_down_image.pdb

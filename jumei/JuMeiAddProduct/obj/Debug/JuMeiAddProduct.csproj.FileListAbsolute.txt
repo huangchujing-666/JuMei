@@ -1,0 +1,15 @@
+E:\元让 交接\jumei\JuMeiAddProduct\bin\Debug\JuMeiAddProduct.exe.config
+E:\元让 交接\jumei\JuMeiAddProduct\bin\Debug\JuMeiAddProduct.exe
+E:\元让 交接\jumei\JuMeiAddProduct\bin\Debug\JuMeiAddProduct.pdb
+E:\元让 交接\jumei\JuMeiAddProduct\bin\Debug\MySql.Data.dll
+E:\元让 交接\jumei\JuMeiAddProduct\obj\Debug\JuMeiAddProduct.Form1.resources
+E:\元让 交接\jumei\JuMeiAddProduct\obj\Debug\JuMeiAddProduct.Properties.Resources.resources
+E:\元让 交接\jumei\JuMeiAddProduct\obj\Debug\JuMeiAddProduct.csproj.GenerateResource.Cache
+E:\元让 交接\jumei\JuMeiAddProduct\obj\Debug\JuMeiAddProduct.exe
+E:\元让 交接\jumei\JuMeiAddProduct\obj\Debug\JuMeiAddProduct.pdb
+C:\Users\Administrator\Desktop\HCJ\聚美上架\jumei\JuMeiAddProduct\bin\Debug\JuMeiAddProduct.exe.config
+C:\Users\Administrator\Desktop\HCJ\聚美上架\jumei\JuMeiAddProduct\obj\Debug\JuMeiAddProduct.exe
+C:\Users\Administrator\Desktop\HCJ\聚美上架\jumei\JuMeiAddProduct\obj\Debug\JuMeiAddProduct.pdb
+H:\HCJ\2   聚美上架\项目文件\jumei\JuMeiAddProduct\bin\Debug\JuMeiAddProduct.exe.config
+H:\HCJ\2   聚美上架\项目文件\jumei\JuMeiAddProduct\obj\Debug\JuMeiAddProduct.exe
+H:\HCJ\2   聚美上架\项目文件\jumei\JuMeiAddProduct\obj\Debug\JuMeiAddProduct.pdb

@@ -1,0 +1,18 @@
+F:\project\jumei\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+F:\project\jumei\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+F:\project\jumei\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+F:\project\jumei\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+F:\project\jumei\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+F:\project\jumei\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+F:\project\jumei\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+F:\project\jumei\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+F:\project\jumei\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+E:\元让 交接\jumei\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+E:\元让 交接\jumei\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\元让 交接\jumei\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\元让 交接\jumei\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+E:\元让 交接\jumei\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+E:\元让 交接\jumei\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\元让 交接\jumei\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+E:\元让 交接\jumei\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+E:\元让 交接\jumei\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

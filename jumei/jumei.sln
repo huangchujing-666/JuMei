@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jumei", "jumei\jumei.csproj", "{E2708294-C67D-4ADD-8419-2687ACBA9727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{09E00123-0844-4C60-B0F7-5EF2E499F338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jumei_down_image", "jumei_down_image\jumei_down_image.csproj", "{84F9442E-6E71-4F46-A0EE-913F254B283E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{7C8CFDD2-DFBD-4AE3-8D28-74D2AB836357}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuMeiAddProduct", "JuMeiAddProduct\JuMeiAddProduct.csproj", "{16F6239D-BBFF-43BD-925D-03C14D5BD8E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuMeiAdded", "JuMeiAdded\JuMeiAdded.csproj", "{50A2DC7E-7A2D-4864-9A12-97D7C24BC126}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2708294-C67D-4ADD-8419-2687ACBA9727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2708294-C67D-4ADD-8419-2687ACBA9727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2708294-C67D-4ADD-8419-2687ACBA9727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2708294-C67D-4ADD-8419-2687ACBA9727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09E00123-0844-4C60-B0F7-5EF2E499F338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09E00123-0844-4C60-B0F7-5EF2E499F338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09E00123-0844-4C60-B0F7-5EF2E499F338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09E00123-0844-4C60-B0F7-5EF2E499F338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F9442E-6E71-4F46-A0EE-913F254B283E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F9442E-6E71-4F46-A0EE-913F254B283E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F9442E-6E71-4F46-A0EE-913F254B283E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F9442E-6E71-4F46-A0EE-913F254B283E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C8CFDD2-DFBD-4AE3-8D28-74D2AB836357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8CFDD2-DFBD-4AE3-8D28-74D2AB836357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8CFDD2-DFBD-4AE3-8D28-74D2AB836357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8CFDD2-DFBD-4AE3-8D28-74D2AB836357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F6239D-BBFF-43BD-925D-03C14D5BD8E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F6239D-BBFF-43BD-925D-03C14D5BD8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F6239D-BBFF-43BD-925D-03C14D5BD8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F6239D-BBFF-43BD-925D-03C14D5BD8E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A2DC7E-7A2D-4864-9A12-97D7C24BC126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A2DC7E-7A2D-4864-9A12-97D7C24BC126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A2DC7E-7A2D-4864-9A12-97D7C24BC126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A2DC7E-7A2D-4864-9A12-97D7C24BC126}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

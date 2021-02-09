@@ -1,0 +1,82 @@
+F:\project\jumei\jumei\bin\jumei.dll
+F:\project\jumei\jumei\bin\jumei.pdb
+F:\project\jumei\jumei\bin\Antlr3.Runtime.dll
+F:\project\jumei\jumei\bin\EntityFramework.dll
+F:\project\jumei\jumei\bin\Microsoft.Web.Infrastructure.dll
+F:\project\jumei\jumei\bin\Newtonsoft.Json.dll
+F:\project\jumei\jumei\bin\System.Net.Http.Formatting.dll
+F:\project\jumei\jumei\bin\System.Web.Http.dll
+F:\project\jumei\jumei\bin\System.Web.Http.WebHost.dll
+F:\project\jumei\jumei\bin\System.Web.Mvc.dll
+F:\project\jumei\jumei\bin\System.Web.Optimization.dll
+F:\project\jumei\jumei\bin\System.Web.Providers.dll
+F:\project\jumei\jumei\bin\System.Web.Razor.dll
+F:\project\jumei\jumei\bin\System.Web.WebPages.Deployment.dll
+F:\project\jumei\jumei\bin\System.Web.WebPages.dll
+F:\project\jumei\jumei\bin\System.Web.WebPages.Razor.dll
+F:\project\jumei\jumei\bin\WebGrease.dll
+F:\project\jumei\jumei\bin\EntityFramework.xml
+F:\project\jumei\jumei\bin\Newtonsoft.Json.xml
+F:\project\jumei\jumei\bin\System.Net.Http.Formatting.xml
+F:\project\jumei\jumei\bin\System.Web.Http.xml
+F:\project\jumei\jumei\bin\System.Web.Http.WebHost.xml
+F:\project\jumei\jumei\bin\System.Web.Mvc.xml
+F:\project\jumei\jumei\bin\System.Web.Razor.xml
+F:\project\jumei\jumei\bin\System.Web.WebPages.xml
+F:\project\jumei\jumei\bin\System.Web.WebPages.Deployment.xml
+F:\project\jumei\jumei\bin\System.Web.WebPages.Razor.xml
+F:\project\jumei\jumei\bin\zh-Hans\EntityFramework.resources.dll
+F:\project\jumei\jumei\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+F:\project\jumei\jumei\bin\zh-Hans\System.Web.Http.resources.dll
+F:\project\jumei\jumei\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+F:\project\jumei\jumei\bin\zh-Hans\System.Web.Mvc.resources.dll
+F:\project\jumei\jumei\bin\zh-Hans\System.Web.Optimization.resources.dll
+F:\project\jumei\jumei\bin\zh-Hans\System.Web.Providers.resources.dll
+F:\project\jumei\jumei\bin\zh-Hans\System.Web.Razor.resources.dll
+F:\project\jumei\jumei\bin\zh-Hans\System.Web.WebPages.resources.dll
+F:\project\jumei\jumei\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+F:\project\jumei\jumei\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+F:\project\jumei\jumei\obj\Debug\jumei.dll
+F:\project\jumei\jumei\obj\Debug\jumei.pdb
+F:\project\jumei\jumei\obj\Debug\jumei.csprojResolveAssemblyReference.cache
+E:\元让 交接\jumei\jumei\bin\jumei.dll
+E:\元让 交接\jumei\jumei\bin\jumei.pdb
+E:\元让 交接\jumei\jumei\bin\Antlr3.Runtime.dll
+E:\元让 交接\jumei\jumei\bin\EntityFramework.dll
+E:\元让 交接\jumei\jumei\bin\Microsoft.Web.Infrastructure.dll
+E:\元让 交接\jumei\jumei\bin\Newtonsoft.Json.dll
+E:\元让 交接\jumei\jumei\bin\System.Net.Http.Formatting.dll
+E:\元让 交接\jumei\jumei\bin\System.Web.Http.dll
+E:\元让 交接\jumei\jumei\bin\System.Web.Http.WebHost.dll
+E:\元让 交接\jumei\jumei\bin\System.Web.Mvc.dll
+E:\元让 交接\jumei\jumei\bin\System.Web.Optimization.dll
+E:\元让 交接\jumei\jumei\bin\System.Web.Providers.dll
+E:\元让 交接\jumei\jumei\bin\System.Web.Razor.dll
+E:\元让 交接\jumei\jumei\bin\System.Web.WebPages.Deployment.dll
+E:\元让 交接\jumei\jumei\bin\System.Web.WebPages.dll
+E:\元让 交接\jumei\jumei\bin\System.Web.WebPages.Razor.dll
+E:\元让 交接\jumei\jumei\bin\WebGrease.dll
+E:\元让 交接\jumei\jumei\bin\EntityFramework.xml
+E:\元让 交接\jumei\jumei\bin\Newtonsoft.Json.xml
+E:\元让 交接\jumei\jumei\bin\System.Net.Http.Formatting.xml
+E:\元让 交接\jumei\jumei\bin\System.Web.Http.xml
+E:\元让 交接\jumei\jumei\bin\System.Web.Http.WebHost.xml
+E:\元让 交接\jumei\jumei\bin\System.Web.Mvc.xml
+E:\元让 交接\jumei\jumei\bin\System.Web.Razor.xml
+E:\元让 交接\jumei\jumei\bin\System.Web.WebPages.xml
+E:\元让 交接\jumei\jumei\bin\System.Web.WebPages.Deployment.xml
+E:\元让 交接\jumei\jumei\bin\System.Web.WebPages.Razor.xml
+E:\元让 交接\jumei\jumei\bin\zh-Hans\EntityFramework.resources.dll
+E:\元让 交接\jumei\jumei\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\元让 交接\jumei\jumei\bin\zh-Hans\System.Web.Http.resources.dll
+E:\元让 交接\jumei\jumei\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+E:\元让 交接\jumei\jumei\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\元让 交接\jumei\jumei\bin\zh-Hans\System.Web.Optimization.resources.dll
+E:\元让 交接\jumei\jumei\bin\zh-Hans\System.Web.Providers.resources.dll
+E:\元让 交接\jumei\jumei\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\元让 交接\jumei\jumei\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\元让 交接\jumei\jumei\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\元让 交接\jumei\jumei\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\元让 交接\jumei\jumei\obj\Debug\jumei.csprojResolveAssemblyReference.cache
+E:\元让 交接\jumei\jumei\obj\Debug\jumei.dll
+E:\元让 交接\jumei\jumei\obj\Debug\jumei.pdb

@@ -1,0 +1,215 @@
+﻿
+
+
+
+*
+{
+    font-size: 12px;
+}
+
+body
+{
+    padding:0px;margin:0px;
+}
+
+header
+{
+    border: 1px solid #DDDDDD;
+    background-color: #F4F4F4;
+    padding: 5px;
+}
+
+    header select
+    {
+        height: 20px;
+    }
+
+.mytable /*数据表格样式*/
+{
+    text-align: center;
+    min-width: 800px;
+    border-collapse: collapse;
+    border: solid 1px #808080;
+}
+
+    .mytable td, .mytable th
+    {
+        border-width: 1px;
+        min-width: 30px;
+        height: 25px;
+    }
+
+    .mytable td
+    {
+        border-style: dotted;
+    }
+
+    .mytable th
+    {
+        border-style: solid;
+        background-color: #F5F5F5;
+    }
+
+    .mytable td:first-child
+    {
+    }
+
+    .mytable tr:hover
+    {
+        background-color: #EAF2FF;
+    }
+
+
+/*-----------------BEGIN---------------------*/
+/*主要用于分上下两个列表的视图页面,用于第一个列表样式*/
+.mytableTop 
+{
+    width:100%;
+    text-align: center;
+    min-width: 800px;
+    border-collapse: collapse;
+    border: solid 1px #808080;
+    border-style:solid;
+}
+    .mytableTop td, .mytableTop th
+    {
+        border-width: 1px;
+        min-width: 30px;
+        height: 42px;
+    }
+
+    .mytableTop td
+    {
+        border-style:  solid;
+    }
+
+    .mytableTop th
+    {
+        border-style:solid;
+        background-color: #F5F5F5;
+    }
+
+    .mytableTop td:first-child
+    {
+    }
+
+    .mytableTop tr:hover
+    {
+        background-color: #EAF2FF;
+    }
+
+/*----------------END--------------------*/
+
+
+
+
+
+
+
+
+
+
+
+.divJump /*跳转样式--分页（上一页，下一页）*/
+{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #F4F4F4;
+    border: 1px solid #DDDDDD;
+}
+
+    .divJump a, .divJump input
+    {
+        margin-left: 10px;
+    }
+
+    .divJump a
+    {
+        text-decoration: none;
+    }
+
+        .divJump a:hover
+        {
+            color: red;
+        }
+
+    .divJump span
+    {
+        color: blue;
+        font-weight: bold;
+    }
+
+    .divJump input
+    {
+        width: 35px;
+    }
+
+.bg, .PopBg /*弹出窗口底层样式*/
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+    position: absolute;
+    top: 0px;
+    z-index: 99;
+    display: none;
+}
+
+.mydiv, .myPopdiv /*弹出窗口底层样式--位置(top,left)和大小(width,height)自己需要的页面设定*/
+{
+    position: absolute;
+    opacity: 1;
+    z-index: 100;
+    text-align: center;
+    display: none;
+    background-color: #E7F0FF;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+    .myPopdiv .PopContent
+    {
+        margin-top: 5px;
+        border: 1px solid lightblue;
+        background-color: white;
+    }
+
+    .myPopdiv .Poptitle
+    {
+        text-indent: 10px;
+        text-align: left;
+    }
+
+.divclose /*右上角关闭的“X”*/
+{
+    position: absolute;
+    right: 8px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 2em;
+    font-weight: bolder;
+    width: 30px;
+    height: 30px;
+}
+
+    .divclose:hover
+    {
+        color: red;
+    }
+
+.clearfix
+{
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+
+
+
+
+

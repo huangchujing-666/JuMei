@@ -1,0 +1,9 @@
+E:\元让 交接\jumei\JuMeiAdded\bin\Debug\JuMeiAdded.exe.config
+E:\元让 交接\jumei\JuMeiAdded\bin\Debug\JuMeiAdded.exe
+E:\元让 交接\jumei\JuMeiAdded\bin\Debug\JuMeiAdded.pdb
+E:\元让 交接\jumei\JuMeiAdded\obj\Debug\JuMeiAdded.csprojResolveAssemblyReference.cache
+E:\元让 交接\jumei\JuMeiAdded\obj\Debug\JuMeiAdded.Form1.resources
+E:\元让 交接\jumei\JuMeiAdded\obj\Debug\JuMeiAdded.Properties.Resources.resources
+E:\元让 交接\jumei\JuMeiAdded\obj\Debug\JuMeiAdded.csproj.GenerateResource.Cache
+E:\元让 交接\jumei\JuMeiAdded\obj\Debug\JuMeiAdded.exe
+E:\元让 交接\jumei\JuMeiAdded\obj\Debug\JuMeiAdded.pdb

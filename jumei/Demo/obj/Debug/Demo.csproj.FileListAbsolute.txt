@@ -1,0 +1,6 @@
+E:\元让 交接\jumei\Demo\bin\Debug\Demo.exe.config
+E:\元让 交接\jumei\Demo\bin\Debug\Demo.exe
+E:\元让 交接\jumei\Demo\bin\Debug\Demo.pdb
+E:\元让 交接\jumei\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+E:\元让 交接\jumei\Demo\obj\Debug\Demo.exe
+E:\元让 交接\jumei\Demo\obj\Debug\Demo.pdb
